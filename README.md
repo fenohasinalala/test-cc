@@ -40,7 +40,7 @@ The case with  most operations
         Time Complexity: O(1)
 
     Total Time Complexity for addRice():
-        O(1)+O(1)+O(1)=O(1)
+        O(1)+O(1)+O(1)= 3*O(1) = O(1)
 
 The function has a constant time complexity of O(1) because it only performs a single check and either adds rice or prints a message. The number of operations does not depend on the size of any input or data structure.
 
@@ -59,7 +59,7 @@ The case with  most operations
         Time Complexity: O(1)O
 
     Total Time Complexity for addRice():
-        O(1)+O(1)+O(1)+O(1)=O(1)
+        O(1)+O(1)+O(1)+O(1)= 4*O(1) - O(1)
 
 The function has a constant time complexity of O(1) because it only performs a simple check and prints a message based on the value of the 'ricePresent' variable. The execution time does not depend on the size of any input or any loops, making it constant.
 
@@ -77,7 +77,7 @@ The function contains only constant time compexity operations,
 The case with  most operations
 
     Check if this.ricePresent is true and this.riceCooked is false.
-        Time Complexity: O(1)
+        Time Complexity: 2*O(1)
 
     Print a message.
         Time Complexity: O(1)
@@ -95,7 +95,7 @@ The case with  most operations
         Time Complexity: O(1)
 
     Total Time Complexity for cookRice():
-        O(1)+O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1) = 7*O(1) = O(1)
 
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
@@ -105,7 +105,7 @@ The function contains only constant time compexity operations,
 The case with  most operations
 
     Check if this.ricePresent is true and this.riceCooked is false.
-        Time Complexity: O(1)
+        Time Complexity: 2*O(1)
 
     Print a message.
         Time Complexity: O(1)
@@ -123,7 +123,7 @@ The case with  most operations
         Time Complexity: O(1)
 
     Total Time Complexity for cookRice():
-        O(1)+O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)= 7*O(1) = O(1)
 
 Same as the old code, the function has a constant time complexity because it only performs a fixed number of operations regardless of the input size. The overall time complexity is O(1).
 
@@ -141,7 +141,7 @@ The function contains only constant time compexity operations,
 The case with  most operations
 
     Check if this.ricePresent is true and this.steamingInProgress is false.
-        Time Complexity: O(1)
+        Time Complexity: 2*O(1)
 
     Print a message.
         Time Complexity: O(1)
@@ -162,7 +162,7 @@ The case with  most operations
         Time Complexity: O(1)
 
     Total Time Complexity for steam():
-        O(1)+O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)= 8*O(1) = O(1)
 
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
@@ -172,7 +172,7 @@ The function contains only constant time compexity operations,
 The case with  most operations
 
     Check if this.ricePresent is true and this.steamingInProgress is false.
-        Time Complexity: O(1)
+        Time Complexity: 2*O(1)
 
     Print a message.
         Time Complexity: O(1)
@@ -193,7 +193,7 @@ The case with  most operations
         Time Complexity: O(1)
 
     Total Time Complexity for steam():
-        O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)= 8*O(1) = O(1)
 
 Same as the old code, the function has a constant time complexity because it only performs a fixed number of operations regardless of the input size. The overall time complexity is O(1).
 
@@ -205,21 +205,36 @@ Regarding space complexity, both versions have a constant space complexity of O(
 
 #### 2.4 keepWarm()
 
-Using the same method to calculate the complexity of previous functions,
+Using the same method to calculate the complexity of previous functions:
+
+    Old implementation time complexity = 7*O(1) = O(1)
+
+    New implementation time complexity = 6*O(1) = O(1)
+
 both versions of the function have a constant time complexity of O(1) because they only perform a fixed number of operations regardless of the input size.
 
 Regarding space complexity, both versions have a constant space complexity of O(1) as they do not use additional memory that scales with the input.
 
 #### 2.5 removeRice()
 
-Using the same method to calculate the complexity of previous functions,
+Using the same method to calculate the complexity of previous functions:
+
+    Old implementation time complexity = 8*O(1) = O(1)
+
+    New implementation time complexity = 9*O(1) = O(1)
+
 both versions of the function have a constant time complexity of O(1) because they only perform a fixed number of operations regardless of the input size.
 
 Regarding space complexity, both versions have a constant space complexity of O(1) as they do not use additional memory that scales with the input.
 
 #### 2.6 simulateRiceCooker()
 
-Using the same method to calculate the complexity of previous functions,
+Using the same method to calculate the complexity of previous functions:
+
+    Old implementation time complexity = 10*O(1) = O(1)
+
+    New implementation time complexity = 6*O(1) = O(1)
+
 both versions of the function have a constant time complexity of O(1) because they only perform a fixed number of operations regardless of the input size.
 
 Regarding space complexity, both versions have a constant space complexity of O(1) as they do not use additional memory that scales with the input.
