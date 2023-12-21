@@ -91,8 +91,11 @@ The case with  most operations
     Print a message.
         Time Complexity: O(1)
 
+    Check if this.ricePresent is false
+        Time Complexity: O(1)
+
     Total Time Complexity for cookRice():
-        O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
+        O(1)+O(1)+O(1)+O(1)+O(1)+O(1)=O(1)
 
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
@@ -153,6 +156,9 @@ The case with  most operations
         Time Complexity: O(1)
 
     Print a message.
+        Time Complexity: O(1)
+    
+    Check if this.ricePresent is false
         Time Complexity: O(1)
 
     Total Time Complexity for steam():
