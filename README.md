@@ -29,30 +29,37 @@ An algorithm with a space complexity of O(n), means that the memory required by 
 
 ##### 2.1.1 Initial implementation
 
+The function contains only constant time compexity operations,
+The case with  most operations
+
     Check if this.ricePresent is false.
         Time Complexity: O(1)
-
+    Initialized variables
+        Time Complexity: O(1)
     Print a message.
         Time Complexity: O(1)
 
     Total Time Complexity for addRice():
-        O(1)+O(1)=O(1)
+        O(1)+O(1)+O(1)=O(1)
 
 The function has a constant time complexity of O(1) because it only performs a single check and either adds rice or prints a message. The number of operations does not depend on the size of any input or data structure.
 
 ##### 2.1.2 New implementation
 
+The function contains only constant time compexity operations,
+The case with  most operations
+
     Check if this.ricePresent is false.
         Time Complexity: O(1)
-
+    Initialized variables
+        Time Complexity: O(1)
     Print a message.
         Time Complexity: O(1)
-
     Return from the function.
         Time Complexity: O(1)O
 
     Total Time Complexity for addRice():
-        O(1)+O(1)+O(1)=O(1)
+        O(1)+O(1)+O(1)+O(1)=O(1)
 
 The function has a constant time complexity of O(1) because it only performs a simple check and prints a message based on the value of the 'ricePresent' variable. The execution time does not depend on the size of any input or any loops, making it constant.
 
@@ -65,6 +72,9 @@ Regarding space complexity, both versions have a constant space complexity of O(
 #### 2.2 cookRice()
 
 ##### 2.2.1 Initial implementation
+
+The function contains only constant time compexity operations,
+The case with  most operations
 
     Check if this.ricePresent is true and this.riceCooked is false.
         Time Complexity: O(1)
@@ -87,6 +97,9 @@ Regarding space complexity, both versions have a constant space complexity of O(
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
 ##### 2.2.2 New implementation
+
+The function contains only constant time compexity operations,
+The case with  most operations
 
     Check if this.ricePresent is true and this.riceCooked is false.
         Time Complexity: O(1)
@@ -121,6 +134,9 @@ Regarding space complexity, both versions have a constant space complexity of O(
 
 ##### 2.3.1 Initial implementation
 
+The function contains only constant time compexity operations,
+The case with  most operations
+
     Check if this.ricePresent is true and this.steamingInProgress is false.
         Time Complexity: O(1)
 
@@ -145,6 +161,9 @@ Regarding space complexity, both versions have a constant space complexity of O(
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
 ##### 2.3.2 New implementation
+
+The function contains only constant time compexity operations,
+The case with  most operations
 
     Check if this.ricePresent is true and this.steamingInProgress is false.
         Time Complexity: O(1)
