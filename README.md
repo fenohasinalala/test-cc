@@ -38,9 +38,11 @@ The case with  most operations
         Time Complexity: O(1)
     Print a message.
         Time Complexity: O(1)
+    Check for the else statement.
+        Time Complexity: O(1)
 
     Total Time Complexity for addRice():
-        O(1)+O(1)+O(1)= 3*O(1) = O(1)
+        O(1)+O(1)+O(1)+O(1)= 4*O(1) = O(1)
 
 The function has a constant time complexity of O(1) because it only performs a single check and either adds rice or prints a message. The number of operations does not depend on the size of any input or data structure.
 
@@ -93,9 +95,12 @@ The case with  most operations
 
     Check if this.ricePresent is false
         Time Complexity: O(1)
+        
+    Check for the else statement.
+        Time Complexity: O(1)
 
     Total Time Complexity for cookRice():
-        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1) = 7*O(1) = O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1) = 8*O(1) = O(1)
 
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
@@ -160,9 +165,12 @@ The case with  most operations
     
     Check if this.ricePresent is false
         Time Complexity: O(1)
+        
+    Check for the else statement.
+        Time Complexity: O(1)
 
     Total Time Complexity for steam():
-        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)= 8*O(1) = O(1)
+        2*O(1)+O(1)+O(1)+O(1)+O(1)+O(1)+O(1)= 9*O(1) = O(1)
 
 The function has a constant runtime complexity of O(1) because it only performs a fixed number of operations regardless of the input size. The if-else statements and console.log statements all have constant time complexity.
 
@@ -231,10 +239,10 @@ Regarding space complexity, both versions have a constant space complexity of O(
 
 Using the same method to calculate the complexity of previous functions:
 
-    Old implementation time complexity = 2*O(1) + !4*O(n) = O(n)
+    Old implementation time complexity = 2*O(1) + O(n) = O(n)
     (to the last else if)
 
-    New implementation time complexity = 7*O(1) + 5*0(n) = O(n)
+    New implementation time complexity = 7*O(1) + 0(n) = O(n)
 
 both versions of the function have a constant time complexity of O(n) because they perform a number of operations depending on the number of input.
 
