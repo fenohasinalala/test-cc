@@ -59,7 +59,7 @@ The case with  most operations
         Time Complexity: O(1)O
 
     Total Time Complexity for addRice():
-        O(1)+O(1)+O(1)+O(1)= 4*O(1) - O(1)
+        O(1)+O(1)+O(1)+O(1)= 4*O(1) = O(1)
 
 The function has a constant time complexity of O(1) because it only performs a simple check and prints a message based on the value of the 'ricePresent' variable. The execution time does not depend on the size of any input or any loops, making it constant.
 
@@ -231,13 +231,14 @@ Regarding space complexity, both versions have a constant space complexity of O(
 
 Using the same method to calculate the complexity of previous functions:
 
-    Old implementation time complexity = 10*O(1) = O(1)
+    Old implementation time complexity = 2*O(1) + !4*O(n) = O(n)
+    (to the last else if)
 
-    New implementation time complexity = 6*O(1) = O(1)
+    New implementation time complexity = 7*O(1) = O(1)
 
 both versions of the function have a constant time complexity of O(1) because they only perform a fixed number of operations regardless of the input size.
 
-Regarding space complexity, both versions have a constant space complexity of O(1) as they do not use additional memory that scales with the input.
+Regarding space complexity, both versions have a constant space complexity of O(n) as they do not use additional memory that scales with the input.
 
 #### 2.7 delaySync()
 
